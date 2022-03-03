@@ -95,11 +95,11 @@ DATABASES = {
 
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.mysql', 
-#         'NAME': 'Aniket24$python_anywhere_db',
-#         'USER': 'Aniket24', 
-#         'PASSWORD': '123456',
-#         'HOST': 'Aniket24.mysql.pythonanywhere-services.com',   
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'Aniket24$B6_db',
+#         'USER': 'Aniket24',
+#         'PASSWORD': 'Anu24011999',
+#         'HOST': 'Aniket24.mysql.pythonanywhere-services.com',
 #         'PORT': '3306',
 #     }
 # }

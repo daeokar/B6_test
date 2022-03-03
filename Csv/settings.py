@@ -81,13 +81,25 @@ WSGI_APPLICATION = 'Csv.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql', 
+#         'NAME': 'Csv',
+#         'USER': 'root', 
+#         'PASSWORD': '123456',
+#         'HOST': 'localhost',   
+#         'PORT': '3306',
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'Csv',
-        'USER': 'root', 
+        'NAME': 'Aniket24$python_anywhere_db',
+        'USER': 'Aniket24', 
         'PASSWORD': '123456',
-        'HOST': 'localhost',   
+        'HOST': 'Aniket24.mysql.pythonanywhere-services.com',   
         'PORT': '3306',
     }
 }

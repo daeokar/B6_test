@@ -81,28 +81,28 @@ WSGI_APPLICATION = 'Csv.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'Csv',
-        'USER': 'root', 
-        'PASSWORD': '123456',
-        'HOST': 'localhost',   
-        'PORT': '3306',
-    }
-}
-
-
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'Aniket24$B6_db',
-#         'USER': 'Aniket24',
-#         'PASSWORD': 'Anu24011999',
-#         'HOST': 'Aniket24.mysql.pythonanywhere-services.com',
+#         'ENGINE': 'django.db.backends.mysql', 
+#         'NAME': 'Csv',
+#         'USER': 'root', 
+#         'PASSWORD': '123456',
+#         'HOST': 'localhost',   
 #         'PORT': '3306',
 #     }
 # }
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Aniket24$B6_db',
+        'USER': 'Aniket24',
+        'PASSWORD': 'Anu24011999',
+        'HOST': 'Aniket24.mysql.pythonanywhere-services.com',
+        'PORT': '3306',
+    }
+}
 
 
 # Password validation
